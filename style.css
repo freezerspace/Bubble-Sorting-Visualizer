@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+  background: linear-gradient(to left top, #78c1f3, #9be8d8, #e2f6ca, #f8fdcf);
+  background-attachment: fixed; /*edit*/
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  /* background-color: #333; */
+  color: black;
+}
